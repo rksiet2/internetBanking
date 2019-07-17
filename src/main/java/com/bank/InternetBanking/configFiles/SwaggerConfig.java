@@ -1,4 +1,4 @@
-package com.bank.InternetBanking.ConfigFiles;
+package com.bank.InternetBanking.configFiles;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

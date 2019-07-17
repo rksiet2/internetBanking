@@ -1,4 +1,4 @@
-package com.bank.InternetBanking.Entity;
+package com.bank.InternetBanking.entity;
  
 
 import javax.persistence.Entity;

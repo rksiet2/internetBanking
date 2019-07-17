@@ -1,4 +1,4 @@
-package com.bank.InternetBanking.Controller;
+package com.bank.InternetBanking.controller;
 
 import java.util.List;
 
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bank.InternetBanking.Entity.Account;
-import com.bank.InternetBanking.Entity.Transaction;
-import com.bank.InternetBanking.Entity.User;
-import com.bank.InternetBanking.Service.InternetBankingService;
+import com.bank.InternetBanking.entity.Account;
+import com.bank.InternetBanking.entity.Transaction;
+import com.bank.InternetBanking.entity.User;
+import com.bank.InternetBanking.service.InternetBankingService;
  
 
 

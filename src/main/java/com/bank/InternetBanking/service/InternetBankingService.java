@@ -1,16 +1,15 @@
-package com.bank.InternetBanking.Service;
+package com.bank.InternetBanking.service;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bank.InternetBanking.Entity.Account;
-import com.bank.InternetBanking.Entity.Transaction;
-import com.bank.InternetBanking.Entity.User;
-import com.bank.InternetBanking.Repository.AccountBankingRepository;
-import com.bank.InternetBanking.Repository.InternetBankingRepository;
-import com.bank.InternetBanking.Repository.TransactionRepository;
+import com.bank.InternetBanking.entity.Account;
+import com.bank.InternetBanking.entity.Transaction;
+import com.bank.InternetBanking.entity.User;
+import com.bank.InternetBanking.repository.AccountBankingRepository;
+import com.bank.InternetBanking.repository.InternetBankingRepository;
+import com.bank.InternetBanking.repository.TransactionRepository;
 
 @Service
 public class InternetBankingService { 
